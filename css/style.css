@@ -125,15 +125,19 @@ a.nav-link .bi.bi-chevron-up::before{
 }
 
 .card-game.active {
-	border: 3px solid blue;
+	border: 3px solid #2D64E6;
 }
 
 .card-game:hover {
-	border: 3px solid blue;
+	border: 3px solid #2D64E6;
 	transform: translateY(-20px);
 	cursor: pointer;
 }
 
 .card-game img {
 	border-radius: calc(1rem - 6px);
+}
+
+.text-blue{
+    color: #2D64E6;
 }
