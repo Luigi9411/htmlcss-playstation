@@ -1,3 +1,7 @@
+body {
+	margin-top: 106px;
+}
+
 /* navbar */
 
 .bar-sony{
@@ -6,22 +10,13 @@
 
 /* nav */
 
-/* .nav-link::after i{
-    transform: rotateY(180deg) rotateZ(180deg);
-}
-
-.text-black{
-    color: black;
-}
-
-.nav-link:active .bi::after, [class^="bi-"]::after, [class*=" bi-"]::after {
-
-    color: aqua;
-} */
-
 .dropdown{
     position: static;
     color: black;
+}
+
+.dropdown-menu[data-bs-popper]{
+    top: 80%;
 }
 
 .dropdown-menu{
@@ -90,7 +85,6 @@ a.nav-link .bi.bi-chevron-up::before{
 	border: 2px solid transparent;
 	border-radius: 1rem;
 	overflow: hidden;
-	
 }
 
 .btn-bord:hover {
@@ -100,4 +94,24 @@ a.nav-link .bi.bi-chevron-up::before{
 
 .bi-search {
     color: black;
+}
+
+/* main */
+
+.bg-hero{
+    padding: 200px 0 50px;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+	background-position: center;
+}
+
+.btn-bord2:hover {
+    border: 2px solid white; 
+    outline: 2px solid red;
+}
+
+.btn-bord2 {
+	border: 2px solid transparent;
+	border-radius: 1rem;
+	overflow: hidden;
 }
