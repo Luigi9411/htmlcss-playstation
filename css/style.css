@@ -192,3 +192,11 @@ a.nav-link .bi.bi-chevron-up::before{
 
 /* section-6 */
 
+.takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* section-7 */
+
