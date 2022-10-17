@@ -213,3 +213,18 @@ a.nav-link .bi.bi-chevron-up::before{
 }
 
 /* section-8 */
+
+@media (max-width:768px){
+    .text-br2{
+        padding-right: 2em;
+    }
+}
+
+@media (min-width:1400px){
+    .text-br2{
+      font-size: 1.50em;
+      padding-right: 3.5em;
+    }
+}
+
+/* section-9 */
